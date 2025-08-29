@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self-Yap on Krystian Kowalczyk</title>
-    <link>https://kamillo.dev/categories/self-yap/</link>
+    <link>http://localhost:60391/categories/self-yap/</link>
     <description>Recent content in Self-Yap on Krystian Kowalczyk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Aug 2025 10:30:00 +0530</lastBuildDate>
-    <atom:link href="https://kamillo.dev/categories/self-yap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:60391/categories/self-yap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first post on my website</title>
-      <link>https://kamillo.dev/posts/posts/</link>
+      <link>http://localhost:60391/posts/posts/</link>
       <pubDate>Fri, 29 Aug 2025 10:30:00 +0530</pubDate>
-      <guid>https://kamillo.dev/posts/posts/</guid>
+      <guid>http://localhost:60391/posts/posts/</guid>
       <description>&lt;h1 id=&#34;some-will-say-that-a-website-is-not-important-heck-some-might-say-that-its&#34;&gt;Some will say that a website is not important, heck some might say that its&lt;/h1&gt;</description>
     </item>
   </channel>

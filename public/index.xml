@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krystian Kowalczyk</title>
-    <link>https://kamillo.dev/</link>
+    <link>http://localhost:60391/</link>
     <description>Recent content on Krystian Kowalczyk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Aug 2025 13:56:05 +0200</lastBuildDate>
-    <atom:link href="https://kamillo.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:60391/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://kamillo.dev/about/about/</link>
+      <link>http://localhost:60391/about/about/</link>
       <pubDate>Fri, 29 Aug 2025 13:56:05 +0200</pubDate>
-      <guid>https://kamillo.dev/about/about/</guid>
+      <guid>http://localhost:60391/about/about/</guid>
       <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;</description>
     </item>
     <item>
       <title>My first post on my website</title>
-      <link>https://kamillo.dev/posts/posts/</link>
+      <link>http://localhost:60391/posts/posts/</link>
       <pubDate>Fri, 29 Aug 2025 10:30:00 +0530</pubDate>
-      <guid>https://kamillo.dev/posts/posts/</guid>
+      <guid>http://localhost:60391/posts/posts/</guid>
       <description>&lt;h1 id=&#34;some-will-say-that-a-website-is-not-important-heck-some-might-say-that-its&#34;&gt;Some will say that a website is not important, heck some might say that its&lt;/h1&gt;</description>
     </item>
   </channel>
