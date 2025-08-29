@@ -7,7 +7,7 @@
   # description = "Longer description of the role..." # Optional detailed description
   responsibilities = [
     "Developed new digital automated sprinkler system",
-    "Collaborated with cross-functional teams.",
+    "Collaborated with diffrent functional teams",
   ]
   technologies = ["C", "python"]
 
@@ -20,5 +20,6 @@
   # description = "Longer description of the role..." # Optional detailed description
   responsibilities = [
     "Learned work-ethics and Collaboration",
+	"Used co-bots to automate tasks"
   ]
   technologies = ["python", "Visual coding"]

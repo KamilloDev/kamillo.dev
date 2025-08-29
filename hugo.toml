@@ -7,10 +7,34 @@ theme = "hugo-noir"
   name = "Krystian Kowalczyk"
   location = "Denmark, Odense"
   description = "Hey there im Krystian, im 16, and i love climbing ;)"
-  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+  profile_image = "/images/logo.png" # Place in your site's static/images/
   # Social links
   github = "https://github.com/kamillodev"
   twitter = "https://twitter.com/yourusername"
   linkedin = "https://linkedin.com/in/yourusername"
   email = "contact@kamillo.dev"
   # ... other params ...
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    pageRef = "/experience"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "/blogs"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
+    pageRef = "/contact"
+    weight = 5 
+
