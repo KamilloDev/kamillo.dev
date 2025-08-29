@@ -1,4 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kamillo.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Krystian Kowalczyk'
 theme = "hugo-noir"
+
+[params]
+  name = "Krystian Kowalczyk"
+  location = "Denmark, Odense"
+  description = "Description ..."
+  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/kamillodev"
+  twitter = "https://twitter.com/yourusername"
+  linkedin = "https://linkedin.com/in/yourusername"
+  email = "contact@kamillo.dev"
+  # ... other params ...
