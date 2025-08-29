@@ -1,0 +1,24 @@
+[[experience]]
+  role = "Intern"
+  company = "Danfoss"
+  company_link = "https://www.danfoss.com/" # Add company URL here
+  period = "Apr 2024"
+  country = "Denmark" # New field for region/country
+  # description = "Longer description of the role..." # Optional detailed description
+  responsibilities = [
+    "Developed new digital automated sprinkler system",
+    "Collaborated with cross-functional teams.",
+  ]
+  technologies = ["C", "python"]
+
+[[experience]]
+  role = "Intern"
+  company = "Universal Robots"
+  company_link = "https://www.universal-robots.com/" # Add company URL here
+  period = "Feb 2022"
+  country = "Denmark" # New field for region/country
+  # description = "Longer description of the role..." # Optional detailed description
+  responsibilities = [
+    "Learned work-ethics and Collaboration",
+  ]
+  technologies = ["python", "Visual coding"]

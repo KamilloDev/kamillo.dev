@@ -6,7 +6,7 @@ theme = "hugo-noir"
 [params]
   name = "Krystian Kowalczyk"
   location = "Denmark, Odense"
-  description = "Description ..."
+  description = "Hey there im Krystian, im 16, and i love climbing ;)"
   profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
   # Social links
   github = "https://github.com/kamillodev"
