@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Krystian Kowalczyk</title>
-    <link>https://kamillo.dev/</link>
-    <description>Recent content on Krystian Kowalczyk</description>
+    <title>Posts on Krystian Kowalczyk</title>
+    <link>https://kamillo.dev/posts/</link>
+    <description>Recent content in Posts on Krystian Kowalczyk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Aug 2025 13:56:05 +0200</lastBuildDate>
-    <atom:link href="https://kamillo.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://kamillo.dev/about/about/</link>
-      <pubDate>Fri, 29 Aug 2025 13:56:05 +0200</pubDate>
-      <guid>https://kamillo.dev/about/about/</guid>
-      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 29 Aug 2025 10:30:00 +0530</lastBuildDate>
+    <atom:link href="https://kamillo.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first post on my website</title>
       <link>https://kamillo.dev/posts/posts/</link>

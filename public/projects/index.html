@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Categories - Krystian Kowalczyk</title>
+        <title>Projects - Krystian Kowalczyk</title>
         
         
         <link rel="icon" type="image/png" sizes="32x32" href="https://kamillo.dev/images/favicon_32x32.png">
@@ -178,7 +178,7 @@
                 
                 <a href="https://kamillo.dev/experience/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Experience</a>
                 
-                <a href="https://kamillo.dev/projects/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Projects</a>
+                <a href="https://kamillo.dev/projects/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 text-accent-light dark:text-accent-dark font-semibold">Projects</a>
                 
                 <a href="https://kamillo.dev/posts/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Posts</a>
                 
@@ -271,7 +271,7 @@
                 
                 <a href="https://kamillo.dev/experience/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Experience</a>
                 
-                <a href="https://kamillo.dev/projects/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Projects</a>
+                <a href="https://kamillo.dev/projects/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 text-accent-light dark:text-accent-dark font-semibold" data-menu-link>Projects</a>
                 
                 <a href="https://kamillo.dev/posts/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Posts</a>
                 
@@ -417,19 +417,63 @@
 </script> 
         <main>
             
-<div class="container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8">Categories</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-5xl font-bold mb-8 md:mb-12 text-text-primary-light dark:text-text-primary-dark">Projects</h1>
+    
+    <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
         
-        <div class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
-            <a href="/categories/self-yap/" class="text-xl font-semibold hover:text-gray-300">
-                Self-Yap
-            </a>
-            <span class="text-gray-400 ml-2">(1)</span>
-        </div>
         
     </div>
 </div>
+
+<style>
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+     
+    @apply bg-bg-primary-light dark:bg-bg-secondary-dark;
+    backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+    border-color: rgba(2, 132, 199, 0.5);  
+}
+html.dark .project-card:hover {
+    border-color: rgba(14, 165, 233, 0.5);  
+}
+
+.aspect-w-16 {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.aspect-w-16 > img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    filter: saturate(1.1) contrast(1.1);
+}
+
+@media (max-width: 768px) {
+    .project-card:hover {
+        transform: none;
+    }
+    
+    .project-card .group-hover\:translate-y-\[-20px\] {
+        transform: translateY(-10px);
+    }
+}
+</style>
 
         </main>
         
