@@ -15,6 +15,9 @@ theme = "hugo-noir"
   email = "contact@kamillo.dev"
   # ... other params ...
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [menu]
   [[menu.main]]
